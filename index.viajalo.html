@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./style (1).css">
+    <title>viajalo</title>
+</head>
+<body>
+  <h1>Calculadora de viaje</h1>
+  <form id="itinerario">
+  <div class="container">
+      <div class="myTodo">
+          <div class="inputvalue">
+              <input class="inputVal" type="text" placeholder="Agrega tu actividad de viaje" value="">
+              <button class="btn">Agrega tu actividad de viaje</button>
+          </div>
+        
+         
+          <div class="todoLists">
+              
+          </div>
+          <button class="clearTask" onclick="clearTask()">Borra itinerario</button>
+      </div>
+  </div>
+</form>   
+  <br>
+
+  <div class="col-md-12 text-center">
+    <section>
+      <form>
+        <h1>Calculadora de viaje</h1>
+        <div class="form-group">
+          <label for="alojamiento">Alojamiento:</label>
+          <input class="form-control" id="alojamiento" type="text" name="alojamiento"/>
+        </div>
+        <div class="form-group">
+          <label for="comida">Comida:</label>
+          <input class="form-control" id="comida" type="text" name="comida"/>
+        </div>
+        <div class="form-group">
+          <label for="tourOCircuitos">Tour o Circuitos:</label>
+          <input class="form-control" id="tourOCircuitos" type="text" name="tourOCircuitos"/>
+        </div>
+        <div class="form-group">
+          <label for="transporte">Transporte:</label>
+          <input class="form-control" id="transporte" type="text" name="transporte"/>
+        </div>
+        <div class="form-group">
+          <label for="resultado">Resultado:</label>
+          <input class="form-control" id="resultado" type="text" name="resultado" disabled/>
+        </div>
+        
+        <button type="button" class="btn btn-default" onclick="calcular()">calcular</button>
+      </form>
+</section>
+<script src="../viajalo tercerca entrega/main (1).js"></script>
+</body>
+</html>
